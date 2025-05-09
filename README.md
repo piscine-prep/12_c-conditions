@@ -1,4 +1,4 @@
-# Introduction aux Conditions en C
+# Introduction aux conditions en C
 
 ## Introduction
 
@@ -6,7 +6,7 @@ Cet exercice vous permettra de vous familiariser avec les structures conditionne
 
 ## Exercice
 
-### Partie 1 : Comparaison Simple
+### Partie 1 : Comparaison simple
 
 Créez un programme C qui :
 
@@ -32,7 +32,7 @@ int main() {
 }
 ```
 
-### Partie 2 : Test de Nombre
+### Partie 2 : Test de nombre
 
 Modifiez votre programme pour :
 
@@ -44,7 +44,7 @@ Modifiez votre programme pour :
    - Nul (== 0)
 4. Afficher le résultat du test
 
-### Partie 3 : Condition Multiple
+### Partie 3 : Condition multiple
 
 Étendez votre programme pour tester si le nombre entré par l'utilisateur est :
 
@@ -52,7 +52,7 @@ Modifiez votre programme pour :
 2. Divisible par 3 (indice : utilisez l'opérateur modulo `%`)
 3. Affichez un message combinant ces deux informations
 
-## Résultat Attendu
+## Résultat attendu
 
 Selon les valeurs utilisées, votre programme doit afficher des résultats similaires à ceux-ci :
 
@@ -89,7 +89,7 @@ Le nombre -4 est pair et non divisible par 3
 - Pour tester si un nombre est divisible par 3, vérifiez si le reste de la division par 3 est égal à 0 : `nombre % 3 == 0`
 - La fonction `scanf("%d", &variable)` permet de lire un entier depuis l'entrée standard et de le stocker dans la variable spécifiée
 
-## Pour Aller Plus Loin
+## Pour aller plus loin
 
 Si vous souhaitez approfondir les structures conditionnelles en C, vous pourriez explorer :
 
